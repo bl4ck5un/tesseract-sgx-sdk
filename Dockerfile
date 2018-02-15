@@ -5,4 +5,5 @@ RUN apt-get update
 RUN apt-get install -y \
     libjsoncpp-dev libjsonrpccpp-dev libjsonrpccpp-tools \
     libboost-all-dev \
-    libmicrohttpd-dev
+    libmicrohttpd-dev \
+    liblog4cxx-dev
